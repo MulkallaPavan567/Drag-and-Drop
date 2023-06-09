@@ -1,0 +1,65 @@
+/* Set default styles for all elements */
+    * {
+      margin: 0;
+      padding: 0;
+      background-color: lightblue;
+      font-family: 'Poppins', sans-serif;
+      box-sizing: border-box;
+    }
+
+    /* Style for heading level 1 */
+    h1 {
+      padding: 10px;
+      text-align: center;
+      color: green;
+    }
+
+    /* Style for heading level 2 */
+    h2 {
+      padding-top: 10px;
+      text-align: center;
+      color: blueviolet;
+    }
+
+    /* Style for the main container */
+    .container {
+      width: 100%;
+      min-height: 100vh;
+      background: lightgray;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+    }
+
+    /* Styles for left and right containers */
+    #left,
+    #right {
+      width: 300px;
+      min-height: 500px;
+      margin: 20px;
+      border: 2px solid black;
+    }
+
+    /* Styles for list items */
+    .list {
+      background: lightsalmon;
+      height: 60px;
+      margin: 30px;
+      color: black;
+      display: flex;
+      align-items: center;
+      cursor: grab;
+    }
+
+    /* Styles for images inside list items */
+    .list img {
+      width: 30px;
+      margin-right: 15px;
+      margin-left: 20px;
+    }
+
+    /* Styles for the reset button */
+    .reset-button {
+      margin-top: 20px;
+      text-align: center;
+    }
